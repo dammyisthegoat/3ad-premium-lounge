@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08090b" />
+  <meta name="description" content="3AD Premium Lounge — bar, grill, food, delivery and nightlife in Akowonjo, Lagos." />
+  <title>3AD Premium Lounge | Food • Drinks • Music • Nights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>3AD PREMIUM • BAR &amp; GRILL • NIGHT CLUB • LOUNGE</span>
+      <a href="tel:+2349031968046">Call <strong>0903 196 8046</strong></a>
+    </div>
+  </div>
+
+  <header class="header" id="home">
+    <a class="brand" href="#home" aria-label="3AD Premium Lounge home">
+      <span class="brand-logo"><img src="assets/3ad-logo.png" alt="3AD logo"></span>
+      <span class="brand-name"><strong>3AD PREMIUM</strong><small>LOUNGE</small></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#experience">Experience</a>
+      <a href="#menu">Menu</a>
+      <a href="#events">Events</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-button" href="#reserve">Reserve</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#experience">Experience</a>
+    <a href="#menu">Menu</a>
+    <a href="#events">Events</a>
+    <a href="#visit">Visit</a>
+    <a href="#reserve">Reserve</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+
+      <div class="wrap hero-inner reveal">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> AKOWONJO • LAGOS</p>
+          <h1>Where the<br><em>night</em> comes alive.</h1>
+          <p class="hero-text">
+            Executive bar. Nightclub. Food &amp; grill. A place to eat, link up,
+            celebrate and stay for the vibe.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-accent" href="#reserve">Reserve a table <span>↗</span></a>
+            <a class="button button-light" href="#menu">View food &amp; drinks</a>
+          </div>
+
+          <div class="hero-contact">
+            <span><b>Food</b> • <b>Drinks</b> • <b>Music</b></span>
+            <span>•</span>
+            <a href="https://www.instagram.com/club3ad/" target="_blank" rel="noopener noreferrer">@club3ad</a>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div class="hero-logo-ring">
+            <img src="assets/3ad-logo.png" alt="3AD Premium Lounge logo">
+          </div>
+          <div class="hero-side-label">3AD<br>PREMIUM<br>LOUNGE</div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#experience"><span></span>Scroll</a>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">THE 3AD EXPERIENCE</p>
+            <h2>Come for one thing.<br><em>Stay for the night.</em></h2>
+          </div>
+          <p>
+            A single place to discover what is happening, see what is on the
+            table and get straight to reservations or orders.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card large reveal">
+            <div class="experience-image exp-night"></div>
+            <div class="card-overlay"></div>
+            <div class="experience-content">
+              <span class="tag">01 / NIGHTLIFE</span>
+              <h3>Big energy.<br>Late nights.</h3>
+              <p>Music, atmosphere, hangouts and nights built for good company.</p>
+              <a href="#events">See events →</a>
+            </div>
+          </article>
+
+          <article class="experience-card reveal">
+            <div class="experience-image exp-food"></div>
+            <div class="experience-content dark-text">
+              <span class="tag">02 / FOOD &amp; GRILL</span>
+              <h3>Good food<br><em>hits different.</em></h3>
+              <p>From grilled favourites to comforting soups and late-night bites.</p>
+              <a href="#menu">Open menu →</a>
+            </div>
+          </article>
+
+          <article class="experience-card accent reveal">
+            <div class="accent-number">03</div>
+            <div>
+              <span class="tag">RESERVATIONS</span>
+              <h3>Make the night<br>yours.</h3>
+              <p>Reserve a table or ask about a private celebration.</p>
+              <a href="#reserve">Reserve now →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">FOOD &amp; DRINKS</p>
+            <h2>Eat. Sip.<br><em>Repeat.</em></h2>
+          </div>
+          <p>
+            A visual starting point for the food menu. Add your current dishes,
+            prices and specials here as they are confirmed.
+          </p>
+        </div>
+
+        <div class="menu-switch reveal" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab active" type="button" data-tab="food">Food &amp; Grill</button>
+          <button class="menu-tab" type="button" data-tab="drinks">Drinks</button>
+        </div>
+
+        <div class="menu-panels">
+          <div class="menu-panel active" id="food-panel">
+            <article class="dish reveal">
+              <div class="dish-icon">01</div>
+              <div>
+                <h3>Catfish Pepper Soup</h3>
+                <p>A signature-style Lagos favourite for a proper night out.</p>
+              </div>
+              <strong>Ask for price</strong>
+            </article>
+
+            <article class="dish reveal">
+              <div class="dish-icon">02</div>
+              <div>
+                <h3>Grilled Fish</h3>
+                <p>Freshly grilled food for laid-back dinners and late nights.</p>
+              </div>
+              <strong>Ask for price</strong>
+            </article>
+
+            <article class="dish reveal">
+              <div class="dish-icon">03</div>
+              <div>
+                <h3>Chicken &amp; Chips</h3>
+                <p>A familiar option when the table wants something easy.</p>
+              </div>
+              <strong>Ask for price</strong>
+            </article>
+          </div>
+
+          <div class="menu-panel" id="drinks-panel">
+            <article class="dish reveal">
+              <div class="dish-icon">01</div>
+              <div>
+                <h3>Drinks &amp; Cocktails</h3>
+                <p>Keep the drinks list current here with real cocktail and bottle options.</p>
+              </div>
+              <strong>Ask for price</strong>
+            </article>
+
+            <article class="dish reveal">
+              <div class="dish-icon">02</div>
+              <div>
+                <h3>Cold Refreshments</h3>
+                <p>Refreshments and chilled options for diners and nightlife guests.</p>
+              </div>
+              <strong>Ask for price</strong>
+            </article>
+
+            <article class="dish reveal">
+              <div class="dish-icon">03</div>
+              <div>
+                <h3>Table Service</h3>
+                <p>Use this space for bottle, table and celebration packages.</p>
+              </div>
+              <strong>Enquire</strong>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-note reveal">
+          <span>MENU</span>
+          <p>Call or WhatsApp for the latest availability and prices.</p>
+          <a href="https://wa.me/2349031968046" target="_blank" rel="noopener noreferrer">WhatsApp 0903 196 8046 →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">WHAT'S ON</p>
+            <h2>Nights worth<br><em>showing up for.</em></h2>
+          </div>
+          <a class="button button-outline-dark" href="https://www.instagram.com/club3ad/" target="_blank" rel="noopener noreferrer">See latest on Instagram ↗</a>
+        </div>
+
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-art event-blue"><span>3AD</span></div>
+            <div class="event-body"><small>WEEKLY / SPECIAL</small><h3>Activities</h3><p>Keep recurring experiences visible in one place.</p></div>
+          </article>
+          <article class="event-card reveal">
+            <div class="event-art event-pink"><span>3AD</span></div>
+            <div class="event-body"><small>LIVE / NIGHT</small><h3>Shows</h3><p>Make the next show easy to discover before the night begins.</p></div>
+          </article>
+          <article class="event-card reveal">
+            <div class="event-art event-gold"><span>3AD</span></div>
+            <div class="event-body"><small>SPECIAL EVENT</small><h3>All-White Party</h3><p>Feature major themed nights with dates and reservation details.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reserve section" id="reserve">
+      <div class="wrap reserve-grid">
+        <div class="reserve-copy reveal">
+          <p class="eyebrow">RESERVE / ORDER</p>
+          <h2>Make your<br><em>night count.</em></h2>
+          <p>
+            Send your details and we’ll prepare the next step for your table,
+            celebration or food enquiry.
+          </p>
+          <div class="contact-buttons">
+            <a class="contact-pill" href="tel:+2349031968046"><span>CALL</span><strong>0903 196 8046</strong></a>
+            <a class="contact-pill" href="tel:+2348033815070"><span>CALL</span><strong>0803 381 5070</strong></a>
+          </div>
+        </div>
+
+        <form class="reserve-form reveal" id="reserveForm">
+          <div class="field-row">
+            <label>Name<input required name="name" type="text" placeholder="Your name"></label>
+            <label>Phone<input required name="phone" type="tel" placeholder="0800 000 0000"></label>
+          </div>
+          <div class="field-row">
+            <label>Date<input required name="date" type="date"></label>
+            <label>Guests<input required name="guests" type="number" min="1" max="30" placeholder="2"></label>
+          </div>
+          <label>What are you booking for?
+            <select required name="type">
+              <option value="" selected disabled>Select one</option>
+              <option>Table reservation</option>
+              <option>Food &amp; grill order</option>
+              <option>Birthday / celebration</option>
+              <option>Private event</option>
+              <option>General enquiry</option>
+            </select>
+          </label>
+          <label>Preferred time<input name="time" type="time"></label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us anything we should know..."></textarea></label>
+          <button class="button button-accent full" type="submit">Continue to WhatsApp <span>↗</span></button>
+          <p class="form-note" id="reserveNote">Your enquiry opens in WhatsApp with the details filled in.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="wrap visit-card reveal">
+        <div>
+          <p class="eyebrow">FIND 3AD</p>
+          <h2>Right on Shasha Road.<br><em>Easy to find.</em></h2>
+        </div>
+        <div class="visit-details">
+          <p><strong>41 Shasha Road</strong><br>Akowonjo Roundabout<br>Opp. Access Bank, Alimosho, Lagos</p>
+          <p><span>Instagram</span><br><a href="https://www.instagram.com/club3ad/" target="_blank" rel="noopener noreferrer">@club3ad</a></p>
+        </div>
+        <a class="button button-white" href="https://www.google.com/maps/search/?api=1&query=41%20Shasha%20Road%2C%20Akowonjo%20Roundabout%2C%20Lagos" target="_blank" rel="noopener noreferrer">Open in Maps ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-top">
+      <a class="brand" href="#home">
+        <span class="brand-logo"><img src="assets/3ad-logo.png" alt="3AD logo"></span>
+        <span class="brand-name"><strong>3AD PREMIUM</strong><small>LOUNGE</small></span>
+      </a>
+      <div class="footer-links"><a href="#experience">Experience</a><a href="#menu">Menu</a><a href="#events">Events</a><a href="#reserve">Reserve</a></div>
+    </div>
+    <div class="wrap footer-bottom"><span>© <span id="year"></span> 3AD Premium Lounge</span><span>Food • Drinks • Music • Nights</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
